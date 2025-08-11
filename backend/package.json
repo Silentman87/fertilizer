@@ -1,0 +1,11 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "for generate project",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "shravan choudhary",
+  "license": "ISC"
+}
