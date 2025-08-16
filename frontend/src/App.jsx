@@ -3,15 +3,16 @@ import { BrowserRouter } from 'react-router-dom';
 import Login from './components/Login';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import { Contact } from 'lucide-react';
+import { Contact } from 'lucide-react';   
 import Testomonial from './components/Testomonial';
 import Footer from './components/Footer';
 import FeatureSection from './components/FeatureSection';
 import HeroSection from './components/HeroSection';
 import Workflow from './components/Workflow';
-import AdminDashboard from './pages/AdminDashboard';
+import FarmerDashboard from './pages/FarmerDashboard';
 import Withoutnavbarroute from './components/Withoutnavbarroute';
 import Withnavbarroute from './components/Withnavbarroute';
+import AdminDashboard from './admin/AdminDashboard';
 
 
 function App() {
@@ -34,8 +35,10 @@ function App() {
 
       
       <Route element={<Withoutnavbarroute />}>
-          <Route path="/admindashboard" element={<AdminDashboard />}/>
+          <Route path="/farmerdashboard" element={<FarmerDashboard />}/>
       </Route>
+
+       <Route path="/admindashboard" element={<AdminDashboard />}/>
     </Routes>
      </Router>
     

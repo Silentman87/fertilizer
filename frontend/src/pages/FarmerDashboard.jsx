@@ -129,7 +129,7 @@ const ErrorMessage = ({ message, onRetry }) => (
 
 
 // Main Dashboard Component
-const AdminDashboard = () => {
+const FarmerDashboard = () => {
   const [activeTab, setActiveTab] = useState('fertilizers');
  
 
@@ -181,4 +181,4 @@ const AdminDashboard = () => {
   );
 };
 
-export default AdminDashboard;
+export default FarmerDashboard;

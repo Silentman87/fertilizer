@@ -15,7 +15,7 @@ const Navbar2 = () => {
       const notifications = await apiService.fetchNotifications();
       setNotificationCount(notifications.length);
     } catch (err) {
-      console.error('Failed to load notifications:', err);
+    
     }
   };
 
@@ -49,4 +49,4 @@ const Navbar2 = () => {
   )
 }
 
-export default Navbar2
+export default Navbar2;
