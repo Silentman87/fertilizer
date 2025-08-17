@@ -7,7 +7,7 @@ const EducationTab = () => {
   const [activeMenuItem, setActiveMenuItem] = useState(0);
 
   // Configuration
-  const GEMINI_API_KEY = "AIzaSyC0An0akhrB9OSThPjHaNoMgQ6VQon_UDg"; // YOUR ACTUAL API KEY
+  const GEMINI_API_KEY = "xyz"; // YOUR ACTUAL API KEY
   const MODEL_NAME = "gemini-2.0-flash";
   const systemInstructionText = "You are a knowledgeable farmer instructor and advisor who always responds. You provide detailed, accurate, and practical answers only to topics that directly affect farming — such as crop cultivation, fertilizers, soil health, irrigation, pest control, weather conditions, farming tools, agricultural techniques, and related advice for farmers. If a user asks about something unrelated to farming or agriculture, politely respond with: ‘Sorry, I can only answer questions related to farming, crops, fertilizers, or agriculture. Please ask something in that area.’ Always ensure that your farming-related answers are clear, thorough, and easy to understand.";
   // Initialize with welcome message
